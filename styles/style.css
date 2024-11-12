@@ -1,0 +1,50 @@
+.imglogo{
+    width:60px;
+    height: 60px;
+}
+
+.txLrNv{
+    font-size:20px;
+}
+
+.pad1{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.container1 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container2{
+    width: 100%;
+    height: 74rem;
+    background-image: url(../Assets/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container3 {
+    width: 100%;
+    background-color: #1e2c20;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tx-cl-wh{
+    color: white;
+}
+
+.ctrTx{
+    text-align: center;
+}
