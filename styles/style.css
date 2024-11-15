@@ -81,9 +81,11 @@
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 30px;
-    padding-bottom: 10px;
   }
+
+.AutHi{
+    
+}
 
 .container5{
     width: 100%;
@@ -121,6 +123,10 @@
 
 .mrg1{
     margin-top: 75px;
+}
+
+.mrg2{
+    margin-bottom: 40px;
 }
 
 .img-wt1{
@@ -162,8 +168,8 @@
 }
 
 .container7{
-    width: 80%;
-    height: 800px;
+    width: 10%;
+    height: 600px;
     background-image: url(../Assets/Reviews1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -173,8 +179,8 @@
 }
 
 .container8{
-    width: 80%;
-    height: 800px;
+    width: 10%;
+    height: 600px;
     background-image: url(../Assets/Reviews2.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -184,8 +190,8 @@
 }
 
 .container9{
-    width: 80%;
-    height: 800px;
+    width: 10%;
+    height: 600px;
     background-image: url(../Assets/Reviews3.jpg);
     background-position: center;
     background-repeat: no-repeat;
