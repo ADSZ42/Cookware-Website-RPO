@@ -44,32 +44,45 @@
 }
 
 .container2{
-    width: 100%;
-    height: 74rem;
+    display: grid;
+    width: 100vw; 
+    height: 100vh;
+    position: relative;
     background-image: url(../Assets/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: auto;
-    margin-left: auto;
 }
+
+.tbox{
+    justify-self: start; 
+    align-self: end;
+    margin-left:80px; 
+    margin-bottom: 200px; 
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: auto;
+    background: rgba(0, 0, 0, 0.7);
+  }
 
 .container3 {
     width: 100%;
     background-color: #1e2c20;
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .container4{
     width: 100%;
-    padding-right: 50px;
-    padding-left: 50px;
     margin-right: auto;
     margin-left: auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
   }
 
 .container5{
@@ -89,6 +102,13 @@
 
 .tx-cl-wh{
     color: white;
+}
+
+.bt-bg{
+    margin-left: 5px;
+    background-color: black;
+    border: solid;
+    border-color: white;
 }
 
 .bld{
@@ -122,11 +142,18 @@
 }
 
 .b-1{
-    border: #1e2c20;
+    border:#1e2c20;
+    border: solid;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
 
 .container6{
     width: 100%;
+    display: flex;
     padding-right: 50px;
     padding-left: 50px;
     margin-right: auto;
@@ -178,4 +205,40 @@
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.7);
+}
+
+.containerFTR {
+    width: 100%;
+    background-color: #1e2c20;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.containerSF1{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.containerSF2{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hovZoom:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.hovDrk:hover{
+    filter: brightness(70%);
 }
