@@ -160,7 +160,7 @@
     padding-left: 50px;
     margin-right: auto;
     margin-left: auto;
-    gap: 10px;
+    gap: 40px;
 }
 
 .container7{
@@ -243,4 +243,15 @@
 
 .hovDrk:hover{
     filter: brightness(70%);
+}
+
+.b{
+    height:0px;
+    width:0%;}
+
+@media screen and (max-width: 1000px) {
+    .b{
+        height:40px;
+        width:100%;
+    }
 }
